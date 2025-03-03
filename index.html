@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolás Martín Sanjurjo | Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#inicio" class="nav-link">Inicio</a>
+                <a href="#formacion" class="nav-link">Formación</a>
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Inicio / Sobre mí -->
+        <section id="inicio" class="section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <h1 class="title">Nicolás Martín Sanjurjo</h1>
+                        <h2 class="subtitle">Desarrollador Full Stack | Backend</h2>
+                        <p class="text">
+                            Soy Nicolás Martín Sanjurjo, desarrollador Full Stack con enfoque en backend. 
+                            He trabajado en el desarrollo de aplicaciones comerciales y proyectos personales, 
+                            desde la planificación hasta la implementación, garantizando soluciones funcionales y optimizadas. 
+                            Busco formar parte de una empresa o equipo donde pueda seguir aprendiendo y creciendo en esta profesión.
+                        </p>
+                        <div class="button-group">
+                            <a href="#contacto" class="button primary">Contactar</a>
+                            <a href="#proyectos" class="button secondary">Ver proyectos</a>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="profile-image">
+                            <img src="./images/profile.jpg" alt="Nicolás Martín Sanjurjo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formación -->
+        <section id="formacion" class="section">
+            <div class="container">
+                <h2 class="section-title">Formación</h2>
+                <div class="education-grid">
+                    <div class="card education-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Técnico Universitario en Automatización Industrial</h3>
+                            <p class="card-subtitle">FICA - Universidad Nacional de San Luis</p>
+                            <p class="card-text">
+                                Inicié mi camino en la programación a través de la automatización, trabajando con Arduino y PLC's 
+                                para el control de procesos industriales. Esta formación me brindó una base sólida en lógica de 
+                                programación y resolución de problemas aplicados a sistemas automatizados.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./images/unsl_logo.png" alt="Logo UNSL" class="institution-logo">
+                            <a href="images/Titulo_TUAI.jpg" target="_blank" class="button primary small">
+                                Ver título
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card education-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Máster en Python</h3>
+                            <p class="card-subtitle">Udemy - Víctor Robles</p>
+                            <p class="card-text">
+                                Aprendí y practiqué las bases del lenguaje Python, desarrollando aplicaciones con frameworks como 
+                                Tkinter, Flask y Django. También trabajé con bases de datos relacionales como MySQL y SQLite, 
+                                aplicando conceptos de desarrollo backend y gestión de datos.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./images/udemy_logo.png" alt="Logo Udemy" class="institution-logo">
+                            <a href="Certificado_Python.pdf" target="_blank" class="button primary small">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card education-card">
+                        <div class="card-content">
+                            <h3 class="card-title">Máster en JavaScript</h3>
+                            <p class="card-subtitle">Udemy - Víctor Robles</p>
+                            <p class="card-text">
+                                Aprendí y practiqué los fundamentos de JavaScript, enfocándome en el manejo del DOM con jQuery, 
+                                el intercambio de datos con JSON y la comunicación asíncrona mediante AJAX y Fetch. También exploré 
+                                conceptos de programación orientada a objetos (POO) y trabajé con tecnologías como Angular, Node.js 
+                                y MongoDB, ampliando mis conocimientos sobre el ecosistema de JavaScript.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <img src="./images/udemy_logo.png" alt="Logo Udemy" class="institution-logo">
+                            <a href="Certificado_Javascript.pdf" target="_blank" class="button primary small">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experiencia y Proyectos -->
+        <section id="proyectos" class="section">
+            <div class="container">
+                <h2 class="section-title">Experiencia y proyectos</h2>
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de pedidos para pizzería local</h3>
+                            <p class="project-description">
+                                Aplicación web que permite a los clientes realizar pedidos en línea, los cuales se reciben en tiempo real en el panel de administración de la pizzería. El sistema registra cada venta y muestra un resumen de las órdenes realizadas, facilitando la gestión diaria de los pedidos.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-label">Tecnologías:</span>
+                                <span class="tech-text">Django, HTML, CSS, JavaScript, SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nicosanjurjo/Pedidos-Pizzeria" target="_blank" class="button secondary small">
+                                    <i class="fab fa-github" style="margin-right: 5px;"></i><p>  Ver código</p> 
+                                </a>
+                                <a href="#" class="button primary small show-images" data-project="pizzeria">
+                                    Ver imágenes
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image" style="height: 300px;">
+                            <img src="./images/pizzeria_logo.png" alt="Sistema de pedidos para pizzería local">
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Sistema de preventa y gestión para distribuidora local</h3>
+                            <p class="project-description">
+                                Plataforma diseñada para optimizar el trabajo de los preventistas, permitiéndoles registrar pedidos desde el celular y enviarlos directamente al administrador. El sistema permite imprimir remitos según días de reparto, periodos o diferentes filtros. Además, cuenta con control de stock y generación de reportes de ventas por fecha, vendedor o cliente.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-label">Tecnologías:</span>
+                                <span class="tech-text">Django, HTML, CSS, JavaScript, SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nicosanjurjo/Preventa-Distribuidora" target="_blank" class="button secondary small">
+                                    <i class="fab fa-github" style="margin-right: 5px;"></i>Ver código
+                                </a>
+                                <a href="#" class="button primary small show-images" data-project="distribuidora">
+                                    Ver imágenes
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="./images/gestion_logo.png" alt="Sistema de gestión para distribuidora local">
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">CRM para franquicia local Royal Prestige</h3>
+                            <p class="project-description">
+                                Sistema de gestión de clientes que permite realizar seguimientos de actividades como citas, llamadas y reuniones. Facilita la organización de contactos y el registro de interacciones, ayudando a mejorar la administración y fidelización de clientes.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-label">Tecnologías:</span>
+                                <span class="tech-text">Django, HTML, CSS, JavaScript, SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nicosanjurjo/CRM" target="_blank" class="button secondary small">
+                                    <i class="fab fa-github" style="margin-right: 5px;"></i> Ver código
+                                </a>
+                                <a href="#" class="button primary small show-images" data-project="crm">
+                                    Ver imágenes
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="./images/CRM_logo.png" alt="CRM para franquicia local Royal Prestige">
+                        </div>
+                    </div>
+
+                    <!-- Proyecto 4 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3 class="project-title">Lista de tareas</h3>
+                            <p class="project-description">
+                                Aplicación web simple para la gestión de tareas, permitiendo a los usuarios crear, editar y eliminar tareas de manera organizada. Desarrollada con FastAPI y un frontend ligero para experimentar con la integración entre backend y frontend en un entorno minimalista.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-label">Tecnologías:</span>
+                                <span class="tech-text">FastAPI, HTML, CSS, JavaScript, SQLite</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/nicosanjurjo/ToDoList" target="_blank" class="button secondary small">
+                                    <i class="fab fa-github" style="margin-right: 5px;"></i> Ver código
+                                </a>
+                                <a href="#" class="button primary small show-images" data-project="todolist">
+                                    Ver imágenes
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-image">
+                            <img src="./images/todo_logo.png" alt="Lista de tareas">
+                        </div>
+                    </div>
+                    <p class="section-description">En los proyectos que desarrollé con Django, me encargué del despliegue en servidores VPS, configurando Nginx, Gunicorn y Whitenoise para asegurar estabilidad y rendimiento en producción.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades Técnicas -->
+        <section id="habilidades" class="section">
+            <div class="container">
+                <h2 class="section-title">Habilidades técnicas</h2>
+                
+                <div class="tabs">
+                    <div class="tabs-header">
+                        <button class="tab-button active" data-tab="languages">Lenguajes y Tecnologías</button>
+                        <button class="tab-button" data-tab="frameworks">Frameworks y Librerías</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tab-panel active" id="languages-panel">
+                            <div class="skills-grid">
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Python 3</span>
+                                        <span class="skill-percentage">60%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">JavaScript</span>
+                                        <span class="skill-percentage">50%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">HTML y CSS</span>
+                                        <span class="skill-percentage">40%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">SQL</span>
+                                        <span class="skill-percentage">60%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">GIT</span>
+                                        <span class="skill-percentage">80%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-panel" id="frameworks-panel">
+                            <div class="skills-grid">
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">JQuery</span>
+                                        <span class="skill-percentage">60%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">Django</span>
+                                        <span class="skill-percentage">50%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 50%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-header">
+                                        <span class="skill-name">FastAPI</span>
+                                        <span class="skill-percentage">40%</span>
+                                    </div>
+                                    <div class="progress-container">
+                                        <div class="progress-bar" style="width: 40%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="section">
+            <div class="container">
+                <h2 class="section-title">Contacto</h2>
+                <div class="contact-grid">
+                    <a href="https://www.linkedin.com/in/nicosanjurjo/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3 class="contact-title">LinkedIn</h3>
+                    </a>
+                    <a href="https://github.com/nicosanjurjo" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3 class="contact-title">GitHub</h3>
+                    </a>
+                    <a href="mailto:saanjuur@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3 class="contact-title">Email</h3>
+                        <p class="contact-text">saanjuur@gmail.com</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © <span id="current-year"></span> Nicolás Martín Sanjurjo. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="imageModal" class="custom-modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="carousel-container">
+                <button id="prevImage" class="carousel-btn">&#10094;</button>
+                <img id="modalImage" src="" alt="Imagen del proyecto">
+                <button id="nextImage" class="carousel-btn">&#10095;</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
+
